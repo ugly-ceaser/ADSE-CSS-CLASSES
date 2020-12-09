@@ -1,0 +1,36 @@
+body{
+	background-color: limegreen;
+	/*
+	background-image: url(img/autosave.jpg);
+	background-attachment: fixed;
+	*/
+
+}
+h1{
+	text-align: center;
+	color: indianred;
+}
+
+table{
+	width: 100%;
+	border-collapse: 
+}
+td{
+	text-align: center;
+}
+caption{
+	color: tomato;
+	caption-side: bottom;
+}
+
+
+/* : is used to attach psuedo classes while :: is used to attach psuedo element ;*/
+tr:hover{
+	background-color: #c0c0c0;
+	color: white;
+
+}
+
+th{
+	text-transform: uppercase;
+}

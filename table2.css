@@ -1,0 +1,42 @@
+body{
+	background-color: pink;
+	/*
+	background-image: url(img/autosave.jpg);
+	background-attachment: fixed;
+	*/
+
+}
+h1{
+	text-align: center;
+	color: #ff69B4;
+}
+
+table{
+	width: 100%;
+	border-collapse:separate;
+	border-spacing: 15px
+}
+td{
+	text-align: center;
+}
+caption{
+	color: tomato;
+	caption-side: bottom;
+}
+
+
+/* : is used to attach psuedo classes while :: is used to attach psuedo element ;
+tr:hover{
+	background-color: #c0c0c0;
+	color: white;
+
+}
+*/
+
+th{
+	text-transform: uppercase;
+}
+/*nth:child tag is used to target a specific element if they are multiple*/
+tr:nth-child(odd){
+	background-color: #bca0dc;
+}

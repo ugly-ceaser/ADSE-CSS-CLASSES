@@ -1,0 +1,65 @@
+*{box-sizing: border-box;}
+@font-face{
+	font-family: shadow_beamer;
+	src:url('font/shadow_beamer.ttf');
+}
+body{
+	font-family: shadow_beamer;
+	font-size: 15px;
+	margin:0;
+}
+
+.div1{
+	width: 100%;
+	padding: 15px;
+	background-color: sandybrown;
+}
+.div2{
+	width: 20%;
+	height:auto;
+/*	padding: 15px;*/
+	background-color: #000;
+	color:#fff;
+	float: left;
+}
+
+.div3{
+	width:60%;
+	height: auto;
+	/*padding: 15px;*/
+	float: left;
+}
+.div4{
+
+	width: 20%;
+	height:auto;
+/*	padding: 15px;*/
+	background-color: #000;
+	color:#fff;
+	float: left;
+}
+
+.div5{
+	width: 100%;
+	background-color: sandybrown;
+	clear: both;
+
+}
+
+
+/* @ is used to refere to other css features u wish to taget*/
+
+@media only screen and (max-width:900px){
+	
+			.div2, .div3, .div4 {
+				width: 100%;
+				height:auto;
+				
+			}
+
+			.div5{
+				display: none;
+			}
+
+}
+

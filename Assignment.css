@@ -1,0 +1,55 @@
+
+form {	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	/* to use vedor prefixes the vedor prefixes are added at the begining of each code... this is used to 
+	ensure that the program works smoothly across browsers
+*/
+
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	/*
+	transform: rotate(40deg);
+
+	-moz-transform: rotate(40deg);
+	-webkit-transform: rotate(40deg);
+	-o-transform: rotate(40deg);
+	*/
+	}
+
+	fieldset{
+		border-top: 50px;
+		border-bottom: 50px;
+
+	}
+
+	input{
+		width: 60%;
+		height: 50px;
+		margin-bottom:15px; 
+	}
+	input[type=email], input[type=password]{
+		border:none;
+		border-bottom: 1px solid brown;
+	}
+	
+
+	input[type=submit]{
+		width: 100%;
+		height: auto;
+	}
+
+	input[type=email]:focus, input[type=password]:focus {
+		width: 100%;
+		background-color:khaki;
+		transition:width 2s linear;
+	}
+
+	input[type=password]:valid{
+		background-color: green;
+		color:white;
+	}
+

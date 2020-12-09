@@ -1,0 +1,47 @@
+.animate{
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+	position: relative;
+	background-color: forestgreen;
+	animation-name: movere;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes movere {
+	10% {
+		
+		background-color:forestgreen; 
+		left: 0px;
+
+			}
+	25% {
+		
+		background-color: indianred; 
+		left: 250px;
+		top: 0px;
+				}
+
+	50% {
+		
+		background-color: forestgreen; 
+		left:500px; 
+		top: 500px;
+			}
+
+	75% {
+		
+		background-color: indianred; 
+		left:500px; 
+		top:750px; 
+		 }
+
+	100% {
+
+		 background-color: forestgreen;
+		 left:750px; 
+		 top:500px;
+			}
+}

@@ -1,0 +1,31 @@
+
+
+
+.br1{
+	background-color: tomato;
+	border:5px solid forestgreen;
+	margin: 5px;
+	width: 200px;
+	height: 200px;
+	border-radius: 15px
+
+}
+
+.br2{
+
+	background-color: tomato;
+	border:5px solid forestgreen;
+	margin: 5px;
+	width: 200px;
+	height: 200px;
+	border-radius: 15px 25px 3px 4px;
+}
+
+.br3{
+	background-color: tomato;
+	border:5px solid forestgreen;
+	margin: 5px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%
+}

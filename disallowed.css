@@ -1,0 +1,8 @@
+.disallowed{
+	cursor: not-allowed;
+	opacity: 0.5px;
+	background-color: forestgreen;
+	border:2px solid tomato;
+	margin:48% 48% 48% 48% ;
+	color: white;
+}

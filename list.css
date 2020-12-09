@@ -1,0 +1,22 @@
+ol{
+	list-style-type:lower-alpha;
+}
+
+ul{
+	list-style-type: square;
+
+}
+
+ol li {
+	display: inline;
+}
+
+p::selection {
+	background-color:red;
+	color: yellow;
+
+}
+
+li::selection {
+	background-color:red;
+	color: yellow;

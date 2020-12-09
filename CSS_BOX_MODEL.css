@@ -1,0 +1,122 @@
+/* properties of the css box model are 
+width
+padding 
+border
+margin
+NB
+
+padding,border and margin has 4 sub-features for specific targetting namely $-bottom
+                                             $-top
+                                             $-left
+                                             $-right
+                                             where $ can be either paddding,border or margin
+ border also has line features namely border-size,border-style and or border-color
+
+ * is a universal selector used to select all the attribute of ur page...the tag '* {box-sizing: border-box;
+
+}' is used to restrict the browser from messing with ur css commands.
+*/
+
+*{box-sizing: border-box;
+
+}
+
+body{margin: 2px;
+size: 100%;
+height: auto;
+width: auto;
+}
+
+.class1{
+	width:90%;
+	padding: 20px;
+	margin-bottom:10px; 
+	background-color: #7f8385;
+	border-left: 5px solid red; 
+
+
+}
+.class2{
+	width:90%;
+	padding: 20px;
+	background-color: #7f6485;
+	border-left: 5px solid lightpink; 
+}
+
+nav {
+	width:100%;
+	padding: 10px;
+	margin-bottom:10px; 
+	background-color: #27edb8;
+	border-left: 5px solid red; 
+
+}
+
+a {
+	color: black;
+	font-weight: bold;
+	padding-right: 5px ;
+	text-decoration: none ;
+}
+
+a:link{ color:black; }
+a:hover{color: white; background-color: lightpink; padding: 0.5px}
+/*a:visited{color: purple;}*/
+a:active{ color: yellow; }
+
+
+.main{
+	height: 300px;
+	background-color: #27edb8;
+	margin-bottom: 30px;
+	width: 100%;
+}
+footer{
+	height: 20px;
+	background-color: #27edb8;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: right;
+	text-indent: 3px;
+}
+
+.topleft{ 
+	position: relative;
+	top:8px;
+	left:15px;
+	
+ }
+
+ .topright{ 
+	position: absolute;
+
+	top:55px;
+
+	right:15px;
+
+ 
+}
+  .center{ 
+	position: relative;
+	top:50px;
+	text-align: center;
+	width: 100%;
+
+ }
+ .bottomleft{ 
+	position: absolute;
+
+	bottom:400px;
+
+	left:16px;
+
+}
+	
+.bottomright{ 
+	position: absolute;
+
+	bottom:400px;
+
+	right:16px;
+}

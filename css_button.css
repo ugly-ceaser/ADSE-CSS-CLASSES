@@ -1,0 +1,76 @@
+.Default{
+	background-color: black;
+	color:white;
+	border:1px solid black;
+	padding: 10px 25px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cool{
+	background-color: steelblue;
+	border:1px solid steelblue;
+}
+
+.fresh{
+	background-color: pink;
+	border:1px solid pink;
+}
+
+.warning{
+	background-color: aqua;
+	border:1px solid aqua;
+}
+
+.Danger{
+	background-color: indianred;
+	border:1px solid indianred;
+}
+
+.btnHover:hover{
+	background-color: forestgreen;
+	color:orange;
+}
+
+/* !important tag is used to insist that css follows through with the code*/
+
+.btn100{
+	width: 100% !important; 
+
+}
+.btn50{
+	width: 50% !important;
+}
+.btn25{
+	width: 25% !important;
+}
+.btn500{
+	width: 500px !important;
+}
+
+.btn250{
+	width: 250px !important;
+}
+
+/*
+there are several terminologies in box shadowing: horizontal offset
+												  vertical offste
+												  blur radius
+												  spread radius
+												  shadow color
+
+*/
+.shadow{
+	box-shadow: 1px 2px 4px 4px indianred;
+
+
+}
+
+.shadowHover:hover{
+	box-shadow: 1px 2px 4px 4px indianred;
+
+
+}
+
+

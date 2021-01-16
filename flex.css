@@ -1,0 +1,62 @@
+*{box-sizing: border-box}
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.flex-container{
+    display: flex;
+    background-color: cornsilk;
+    color: gold;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.flex2{
+    display: flex;
+    background-color: darkkhaki;
+    color: navajowhite;
+    height: 400px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex2 div {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: gold;
+
+}
+footer {
+    display: flex;
+
+
+}
+
+footer div {
+    height: 30px;
+    width: 100%;
+    background-color: gold;
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+   .flex2{
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+   }
+
+    .flex2 > div{
+        width: 100%;
+    }
+
+
+
+}
+
+

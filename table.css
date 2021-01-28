@@ -34,3 +34,7 @@ tr:hover{
 th{
 	text-transform: uppercase;
 }
+
+th i {
+	color: red;
+}
